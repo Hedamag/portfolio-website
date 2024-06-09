@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,200&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: whitesmoke !important;
+}
+
+.nav-custom {
+  background: #f8f8f8 !important;
+}
+
+.active {
+  color: #b64711 !important;
+}
+
+.navbar-brand img {
+  height: 100%;
+  width: 240px;
+}
+
+.nav-item a {
+  font-size: 1.2rem;
+}
+
+.nav-item a:hover {
+  color: #b64711;
+  cursor: pointer3;
+}
+
+.adjusted-margin {
+  margin-top: 6rem !important;
+}
+
+.info-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 70vh;
+}
+
+.info-container h1 {
+  font-size: 3.5rem;
+}
+
+.info-container h5 {
+  font-weight: 300;
+  margin-left: 4px;
+  margin-bottom: -4px;
+}
+
+.info-container p {
+  font-size: 1.4rem;
+}
+
+.media-container {
+  flex: 1;
+  height: 70vh;
+}
+
+.media-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.about-me-link {
+  color: black !important;
+}
+
+.about-me-link a:hover {
+  color: white !important;
+}
+
+.custom-btn {
+  background: #b64711 !important;
+  border: 1px solid #b64711 !important;
+}
+
+.custom-btn:hover {
+  background: #8a360c !important;
+  border: 1px solid #b64711 !important;
+  cursor: pointer;
+}
+
+/* Projectss */
+
+.my-projects {
+  text-align: center;
+  background-color: #f4e9dc;
+}
+
+.my-projects h2 {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-body button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Education section */
+
+.education h2 {
+  font-size: 5rem;
+  padding: 50px;
+}
+
+.education-container {
+  display: flex;
+  flex: 1;
+}
+
+.education-wrapper {
+  height: 100%;
+  display: flex;
+}
+
+.education-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.education-image {
+  width: 130px !important;
+  height: 273px !important;
+}
+
+.education-info {
+  color: black;
+}
+
+.education-info2 {
+  color: white;
+}
+
+.education-container-1 img {
+  height: 200px;
+}
+
+.education-container-2 img {
+  height: 200px;
+}
+
+.bg-beige {
+  background-color: #f1f2d7 !important;
+}
+
+.bg-dark-blue {
+  background-color: #011626 !important ;
+}
+
+/* About me */
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding: 40px;
+  margin: 30px;
+  background-color: white;
+}
+
+.skill-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 2rem;
+  font-weight: 200;
+  padding: 25px;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me h2 {
+  font-size: 5rem;
+  padding: 20px;
+}
+
+.about-me p {
+  font-size: 1.5rem;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: #262626;
+  min-height: 150px;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-weight: 200;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+.social-media-wrapper {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  gap: 20px;
+}
+
+/* Beegreen */
+.case-study-wrapper {
+  display: flex;
+  background-color: white;
+  height: 80vh;
+}
+
+.case-study-media {
+  background-size: contain;
+  background-image: url("./assets/beegreen-app.jpg");
+  display: flex;
+  flex: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.case-study-info {
+  background-color: whitesmoke;
+  display: flex;
+  padding: 18px;
+  flex: 1;
+}
+
+.study-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.study-info-wrapper p {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.study-info-wrapper h2 {
+  margin-top: 40px;
+}
+.study-info-wrapper h5 {
+  font-weight: 500;
+}
+
+.case-study-info img {
+  height: 200px;
+}
+
+.case-study-info h1 {
+  color: blacK;
+  display: flex;
+  flex: 1;
+}
+
+.solution-intro {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: white;
+}
+
+.solution-intro-media-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.solution-intro-media-container {
+  display: flex;
+  flex: 1;
+  background-color: white;
+}
+
+.solution-intro-info-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  background-color: gold;
+  position: relative;
+}
+.solution-intro-media-container img {
+  height: 274px;
+  width: auto;
+}
+
+.solution-intro p {
+  font-size: 1.3rem;
+  margin: 0 40px 40px 40px;
+}
+
+.solution-intro h2 {
+  padding: 30px 40px 20px 40px;
+}
+
+.solution-wrapper {
+  margin: 20px;
+  display: flex;
+}
+
+.solution-media-container {
+  display: flex;
+  flex: 1.4;
+}
+
+.solution-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 50px;
+  min-height: 450px;
+  text-align: center;
+}
+
+.solution-info-container p {
+  font-size: 1.2rem;
+}
+
+.carousel-inner img {
+  height: 100%;
+  width: 100%;
+}
+
+.custom-card {
+  max-width: 350px !important;
+}
+
+.carousel-indicators {
+  display: none !important;
+}
+
+.tabs-section {
+  display: flex;
+  flex-direction: row-reverse;
+  min-height: 650px;
+  background-color: white;
+}
+
+.tab-container {
+  display: flex;
+  min-height: 500px;
+}
+
+.challenge-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex: 1;
+  background-color: whitesmoke;
+}
+
+.users-impact-container {
+  display: flex;
+  margin: 20px;
+}
+
+.users-impact-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex: 1;
+  background-color: whitesmoke;
+}
+
+.users-impact-container-media {
+  display: flex;
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./assets/users-impact.jpg");
+}
+.lessons-container-media {
+  display: flex;
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./assets/bee-house.jpg");
+}
+
+.custom-img {
+  height: auto;
+  width: 100%;
+}
+
+.tab-content-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.tab-nav-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding-top: 50px;
+}
+
+.custom-tabs {
+  color: black !important;
+  font-size: 1.5rem !important;
+  border-color: transparent !important;
+}
+
+.custom-tabs:hover {
+  color: rgb(220, 189, 18) !important;
+}
+
+/* Riverhouse */
+
+.case-study-wrapper {
+  display: flex;
+  background-color: white;
+  height: 80vh;
+}
+
+.case-study-media-rh {
+  background-size: contain !important;
+  background-image: url("./assets/riverhouse_home.jpg") !important;
+  display: flex;
+  flex: 1;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background: black;
+}
+
+.case-study-info-rh {
+  background-color: whitesmoke;
+  display: flex;
+  padding: 18px;
+  flex: 1;
+}
+
+.solution-intro-info-container-rh {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #359af2;
+  position: relative;
+  color: white;
+  padding: 8px;
+}
+
+.study-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.study-info-wrapper p {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.study-info-wrapper h2 {
+  margin-top: 40px;
+}
+.study-info-wrapper h5 {
+  font-weight: 500;
+}
+
+.case-study-info img {
+  height: 200px;
+}
+
+.case-study-info h1 {
+  color: blacK;
+  display: flex;
+  flex: 1;
+}
+
+.white {
+  color: white;
+}
+
+.nav-custom-rh {
+  background: #359af2 !important;
+}
+
+.solution-media-container-rh {
+  display: flex;
+  flex: 1.4;
+  justify-content: center;
+}
+
+.custom-img {
+  height: 450px !important;
+  width: 450 !important;
+}
+
+.users-impact-container-media-rh {
+  display: flex;
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./assets/computer.jpg");
+}
+
+.lessons-container-media-rh {
+  display: flex;
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./assets/rh-background.jpg");
+}
+
+/* Phone Screen */
+@media only screen and (max-width: 600px) {
+  .education-wrapper {
+    flex-direction: column;
+  }
+
+  .education h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .education-container-1,
+  .education-container-2 {
+    flex-direction: column;
+  }
+
+  .education-info {
+    text-align: center;
+    padding-left: 0;
+    padding-top: 36px;
+  }
+}
